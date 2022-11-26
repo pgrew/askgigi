@@ -1,0 +1,16 @@
+name: syncfork
+run-name: ${{ github.actor }} is syncing to the forked repo
+on: [push]
+jobs:
+  sync-with-fork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: mikeal/npx@1.0.0
+      - name: install npx
+        run: npm install sync-fork
+      - name: add upstream
+        run: npx sync-fork -a https://github.com/searxng/searxng
+      - name: do sync
+        run: npx sync-fork -u upstream
+      - run: echo "🍏 This job's status is ${{ job.status }}."

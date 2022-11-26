@@ -905,8 +905,8 @@ msgstr ""
 
 #: searx/templates/simple/search.html:9
 #: searx/templates/simple/simple_search.html:5
-msgid "Search for..."
-msgstr ""
+msgid "Maybe Gigi knows about..."
+msgstr "Maybe Gigi knows about..."
 
 #: searx/templates/simple/search.html:10
 #: searx/templates/simple/simple_search.html:6
