@@ -9,7 +9,7 @@ from searx.version import VERSION_STRING, GIT_URL, GIT_BRANCH
 
 # Project --------------------------------------------------------------
 
-project = 'SearXNG'
+project = 'AskGigi'
 copyright = '2021 SearXNG team, 2015-2021 Adam Tauber, Noémi Ványi'
 author = '2021 SearXNG team, 2015-2021 Adam Tauber'
 release, version = VERSION_STRING, VERSION_STRING
@@ -189,7 +189,7 @@ html_sidebars = {
 }
 singlehtml_sidebars = {"index": ["project.html", "localtoc.html"]}
 html_logo = "../src/brand/searxng-wordmark.svg"
-html_title = "SearXNG Documentation ({})".format(VERSION_STRING)
+html_title = "AskGigi Documentation ({})".format(VERSION_STRING)
 html_show_sourcelink = True
 
 # LaTeX ----------------------------------------------------------------

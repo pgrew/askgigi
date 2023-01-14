@@ -71,7 +71,7 @@ Global Settings
 
    general:
      debug: false
-     instance_name:  "SearXNG"
+     instance_name:  "AskGigi"
      privacypolicy_url: false
      donation_url: https://docs.searxng.org/donate.html
      contact_url: false

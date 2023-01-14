@@ -258,7 +258,7 @@ searxng.install.all() {
 
     local redis_url
 
-    rst_title "SearXNG"
+    rst_title "AskGigi"
     searxng.install.packages
     wait_key 10
     searxng.install.user
@@ -418,11 +418,11 @@ EOF
 }
 
 searxng.install.packages() {
-    TITLE="SearXNG -- install packages" pkg_install "${SEARXNG_PACKAGES}"
+    TITLE="AskGigi -- install packages" pkg_install "${SEARXNG_PACKAGES}"
 }
 
 searxng.install.buildhost() {
-    TITLE="SearXNG -- install buildhost packages" pkg_install \
+    TITLE="AskGigi -- install buildhost packages" pkg_install \
          "${SEARXNG_PACKAGES} ${SEARXNG_BUILD_PACKAGES}"
 }
 
